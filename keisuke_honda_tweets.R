@@ -11,4 +11,4 @@ languages <- test %>% #creates new df
   labs(title="Keisuke Honda tweets",subtitle="By language",fill="Language")+ #adds labels
   xlab("Language of tweet")+
   ylab("Number of tweets")+
-ggsave("keisukehonda_bylanguage.png")
+ggsave("keisukehonda_bylanguage.png") #outputs png
